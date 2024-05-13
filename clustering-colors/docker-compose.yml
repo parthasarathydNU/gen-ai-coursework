@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  task-1:
+    build: .
+    volumes:
+      - .:/usr/src/app
+    command: python scripts/starter_test.py
