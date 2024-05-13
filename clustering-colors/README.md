@@ -2,6 +2,14 @@
 
 ## Project Overview
 
+This project implements the K-means clustering algorithm to segment images based on the similarity of colors using the RGB color space. It aims to classify each pixel into clusters, each represented by a centroid, which corresponds to the average color of the pixels in that cluster. This technique is useful for various applications including image compression, image analysis, and pattern recognition in digital images.
+
+## Features
+
+- **Image Loading**: Load images from your filesystem to be processed.
+- **Color Clustering**: Implement K-means clustering to classify pixels based on their RGB color values.
+- **Cluster Visualization**: Visualize the results to see how the image has been segmented into different color clusters.
+- **Summary Statistics**: Generate and view summary statistics of the clustering, such as the number of pixels in each cluster and the centroid color of each cluster.
 
 ## Getting Started
 
