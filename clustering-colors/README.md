@@ -11,6 +11,12 @@ This project implements the K-means clustering algorithm to segment images based
 - **Cluster Visualization**: Visualize the results to see how the image has been segmented into different color clusters.
 - **Summary Statistics**: Generate and view summary statistics of the clustering, such as the number of pixels in each cluster and the centroid color of each cluster.
 
+## Input
+![Alt text](../clustering-colors/data/images/1000_F_197136667_bQFpFJSEK8wQWgibV5QOa2X6i8FNZns1.jpg)
+
+## Output
+![](../clustering-colors/Output/1000_F_197136667_bQFpFJSEK8wQWgibV5QOa2X6i8FNZns1_output.png)
+
 ## Getting Started
 
 ### Prerequisites
