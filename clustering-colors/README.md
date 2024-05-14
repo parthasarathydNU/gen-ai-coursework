@@ -28,13 +28,18 @@ This project implements the K-means clustering algorithm to segment images based
 1. **Clone the repository (optional):**
    ```bash
    git clone https://github.com/parthasarathydNU/gen-ai-coursework.git
-   cd starter
+   cd gen-ai-coursework/clustering-colors
    ```
 
-2. **Build and run the application using Docker Compose:**
+2. **Install jupyter and start a jupyter server:**
    ```bash
-   docker-compose up --build
+   jupyter lab
    ```
+
+3. **Running the notebook:**
+   - Once the jupyter notebook is up you can access it through `http://localhost:8888` on your browser. Navigate to the `notebooks` dir.
+   - Run -> Run all cells
+
 
 ### File Structure
 - `scripts/`: Contains Python scripts for data analysis.
