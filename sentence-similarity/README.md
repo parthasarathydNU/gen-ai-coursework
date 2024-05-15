@@ -1,16 +1,32 @@
-# Sample Starter Project
+# Sentence Similarity Techniques
 
 ## Project Overview
 
+This project explores various methods for calculating sentence similarity. Sentence similarity is a fundamental concept in natural language processing (NLP) and has applications in search engines, recommendation systems, plagiarism detection, and more. The project covers traditional methods for calculating sentence similarity, providing a foundation before diving into more advanced, neural network-based techniques.
+
+The primary goal of this project is to implement and compare different methods for determining the similarity between sentences and paragraphs. This will help in understanding the strengths and weaknesses of each method and how they can be applied to real-world NLP problems.
 
 
 ## Features
 
+1. Text Preprocessing
+- Tokenization: Splitting sentences into individual words.
+- Stop Words Removal: Filtering out common words that do not contribute to the meaning (e.g., 'and', 'the', 'is').
+- Punctuation Removal: Eliminating punctuation marks to focus on the words themselves.
 
-## Input
+2. Similarity Calculation Methods
+- Bag of Words (BoW): A simple representation where sentences are converted into vectors of word counts.
+- TF-IDF: Term Frequency-Inverse Document Frequency, a statistical measure used to evaluate the importance of a word in a document relative to a collection of documents.
+- Jaccard Similarity: Measures the similarity between two sets by comparing the size of their intersection to the size of their union.
+- Levenshtein Distance (Edit Distance): Calculates the minimum number of single-character edits required to change one word into another.
+- Overlap Coefficient: Measures the overlap between two sets relative to the smaller set.
+- Dice Coefficient: Measures the similarity between two sets based on the ratio of twice the size of the intersection to the sum of the sizes of the sets.
 
+3. Example Sentences and Paragraphs
+Included examples from different contexts to demonstrate how the methods perform on various types of text.
 
-## Output
+4. Comprehensive Notebook
+An interactive Jupyter Notebook that includes explanations, code snippets, and results for each method.
 
 ## Getting Started
 
