@@ -1,11 +1,11 @@
 # Gen AI Coursework
 
 ## Overview
-This repository contains assignments and projects related to the various Generative AI courses that I am exploring. The projects cover a wide range of topics, including deep learning, neural networks, machine learning algorithms, and practical applications of AI technologies.
+This repository contains assignments and projects related to the various Generative AI courses that I am currently exploring. The projects cover a wide range of topics, including deep learning, neural networks, machine learning algorithms, and practical applications of AI technologies.
 
-*Given my background in Software Engineering, I make a concerted effort to delve deeply into each concept to grasp the underlying fundamentals thoroughly. In each notebook, you will find detailed explanations and examples designed to enhance understanding and provide clarity on how things work under the hood.*
+> *As someone with a background in software engineering and not in data science, I have approached the creation of this repository with the intention to demystify the complexities of Generative AI for those who, like me, are not from a data science background. Each notebook is crafted to delve deeply into the underlying concepts, ensuring that the fundamentals are thoroughly explained. You will find detailed explanations and examples in each notebook that aim to make the content accessible and understandable, regardless of your prior expertise in data science. I will keep updating this repo as I cover newer topics*
 
-## Suggested Order for Beginners
+## Suggested Order
 For those new to Generative AI, I recommend following this sequential path through the projects in this repository to build a foundational understanding before advancing to more complex topics:
 
 1. **cnn-intro**: Start with the basics of neural networks by exploring Convolutional Neural Networks (CNNs). This project will help you understand fundamental neural network architectures and their applications.
@@ -15,7 +15,6 @@ For those new to Generative AI, I recommend following this sequential path throu
 5. **advanced-llms**: With a solid base in neural networks and NLP, delve into advanced language models, from simple MLPs to Transformer Models. This section includes various projects and experiments that expand on the architecture and functionality of sophisticated language models.
 6. **vae-intro**: Learn about Variational Autoencoders, particularly convolutional models, to understand generative models in AI. This project is crucial for grasping how machines can generate new data instances that resemble training data.
 7. **gan**: Explore Generative Adversarial Networks through the provided Jupyter notebook. This addition will deepen your understanding of another vital generative model, showcasing the dynamic between generator and discriminator networks in creating new data samples.
-
 
 ## Contributions
 To contribute:
