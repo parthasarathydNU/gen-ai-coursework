@@ -21,11 +21,12 @@ Utilizing state-of-the-art transformer-based architectures, the project involves
 
 ## Implementation Notebooks
 This project is meticulously divided into Jupyter notebooks, each focusing on a critical part of the implementation:
-- `01_Data_Preparation.ipynb`: Comprehensive steps for data loading, cleaning, and preprocessing.
-- `02_Training_Backward_Model.ipynb`: Detailed process for training the backward model.
-- `03_Generating_Instructions.ipynb`: Methodology for generating instruction prompts from the web corpus.
-- `04_Self_Curation.ipynb`: Advanced self-curation process for selecting high-quality instruction-output pairs.
-- `05_Fine_Tuning_Base_Model.ipynb`: Final steps for fine-tuning the base model with curated instructions.
+- [`01-data-preparation.ipynb`](./01-data-preparation.ipynb): This notebook covers the comprehensive steps for loading, cleaning, and preprocessing the data. It ensures that the web corpus and seed data are in the optimal state for effective training and further processing.
+- [`02_training_backward_model.ipynb`](./02-training-backward-model.ipynb): This notebook details the process of training the backward model, which generates instruction prompts from the web corpus. It includes model architecture setup, training parameters, and performance evaluation.
+- [`03-lima-dataset-subset-selection.ipynb`](./03-lima-dataset-subset-selection.ipynb): This notebook focuses on selecting a random subset of 150 entries from the LIMA conversations dataset. It outlines the criteria and methods used for subset selection to ensure a representative sample for the subsequent steps.
+- [`04-generating-instructions.ipynb`](./04-generating-instructions.ipynb): This notebook describes the methodology for generating instruction prompts using the trained backward model. It covers the generation process, handling of outputs, and preliminary evaluation of instruction quality.
+- [`05-self-curation.ipynb`](./05-self-curation.ipynb): This notebook presents the advanced self-curation process for selecting high-quality instruction-output pairs. It includes the criteria for quality assessment, filtering techniques, and the selection mechanism to ensure only the best pairs are used for fine-tuning.
+- [`06-fine-tuning-base-model.ipynb`](./06-fine-tuning-base-model.ipynb):  This notebook outlines the final steps for fine-tuning the base model using the curated instructions. It details the fine-tuning process, including parameters, epochs, and performance metrics, culminating in an enhanced instruction-following LLM.
 
 ## Lessons Learned
 Working on this project provided several key insights:
