@@ -7,6 +7,9 @@ This project, implements the groundbreaking instruction backtranslation techniqu
 Instruction backtranslation is revolutionizing the way LLMs are aligned to follow instructions. By leveraging vast amounts of unlabelled data and minimal human-annotated seed data, this technique generates high-quality instructional data through an iterative self-training process. The result is a highly efficient model that excels in instruction-following tasks, setting new benchmarks in generative AI performance. This project replicates the technique and explores its vast potential across multiple domains.
 
 ## Methodology
+
+![Overview](Screenshot%202024-07-23%20at%208.56.44%20PM.png)
+
 ### Data Preparation
 The implementation uses a robust web corpus and a small set of seed data. Our preprocessing pipeline ensures the dataset is in prime condition for effective training.
 
