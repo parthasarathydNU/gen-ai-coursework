@@ -53,10 +53,11 @@ For any inquiries, collaborations, or job opportunities, please contact us at:
 Dhruv Parthasarathy
 - **Email**: parthasarathy.d@northeastern.edu
 - **LinkedIn**: https://www.linkedin.com/in/parthadhruv/
+- **GitHub**: https://github.com/parthasarathydNU
 
 Akshay Bharadwaj
-- **Email**: [your-email@example.com]
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile/)
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)
+- **Email**: kunigalharish.a@northeastern.edu
+- **LinkedIn**: https://www.linkedin.com/in/akshay-bharadwaj-k-h/
+- **GitHub**: https://github.com/akshaybharadwaj11
 
 Join us in pushing the boundaries of what's possible with LLMs and generative AI!
