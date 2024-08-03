@@ -27,7 +27,7 @@ The main objective of this project is to apply direct preference optimization te
 Contributions to this project are welcome! Please feel free to fork the repository, make your changes, and submit a pull request.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE.md) file for details.
 
 ## Acknowledgements
 - Inspired by the techniques proposed in the "Direct Preference Optimization" paper.
