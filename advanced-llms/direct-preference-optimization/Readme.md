@@ -34,7 +34,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) f
 - Thanks to all contributors who have helped in refining the approach and expanding the dataset.
 
 ## Contact
-For any queries or discussions regarding the project, please open an issue in the GitHub repository or contact me directly at parthasarathy.d@northeastern.edu.
+For any queries or discussions regarding the project, please open an issue in the GitHub repository, reach out to me via [LinkedIn](https://www.linkedin.com/in/parthadhruv/)  or contact me directly at parthasarathy.d@northeastern.edu.
 
 ## Citation
 ```
