@@ -12,6 +12,12 @@ The main objective of this project is to apply direct preference optimization te
 - **Model Training**: Fine-tuning a pre-trained LLM using the annotated dataset with a focus on optimizing for these preferences.
 - **Evaluation**: Assessing the performance of the fine-tuned model using both automated metrics and human evaluations to measure alignment with human preferences.
 
+## Status Update
+- **Generated data samples for annotation using Mistral-7B-Instruct-v2.0** : [DPODataSetGeneration.ipynb](./DPODataSetGeneration.ipynb)
+
+## Next Steps:
+- Generating the preference dataset using PariRM
+- Iteratively fine tuning Mistral-7B-Instruct-v2.0
 
 ## Contributing
 Contributions to this project are welcome! Please feel free to fork the repository, make your changes, and submit a pull request.
