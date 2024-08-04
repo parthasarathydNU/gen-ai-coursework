@@ -15,10 +15,10 @@ The main objective of this project is to apply direct preference optimization te
 ## Status Update
 - **Generated data samples for annotation using Mistral-7B-Instruct-v2.0** : [DPODataSetGeneration.ipynb](./DPODataSetGeneration.ipynb)
 - **Generated Data Samples** : [generated_responses_DPO.json](./generated_responses_DPO.json)
+- **Generated Preference Dataset and Pushed to Hugging Face** [DhruvParth/Mistral-7B-Instruct-v2.0-PairRM-DPO-Dataset](https://huggingface.co/datasets/DhruvParth/Mistral-7B-Instruct-v2.0-PairRM-DPO-Dataset)
+
 
 ## Next Steps:
-- Generating the preference dataset using PariRM
-- Push Preference Dataset to HuggingFace
 - Fine tuning Mistral-7B-Instruct-v2.0
 - Iteratively following the above process for 3 iterations
 - Evaluating performance of new model to base model on unseen data
