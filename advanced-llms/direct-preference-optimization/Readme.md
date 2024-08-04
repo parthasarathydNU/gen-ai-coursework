@@ -12,19 +12,29 @@ The main objective of this project is to apply direct preference optimization te
 - **Model Training**: Fine-tuning a pre-trained LLM using the annotated dataset with a focus on optimizing for these preferences.
 - **Evaluation**: Assessing the performance of the fine-tuned model using both automated metrics and human evaluations to measure alignment with human preferences.
 
+## Status Update
+- **Generated data samples for annotation using Mistral-7B-Instruct-v2.0** : [DPODataSetGeneration.ipynb](./DPODataSetGeneration.ipynb)
+- **Generated Data Samples** : [generated_responses_DPO.json](./generated_responses_DPO.json)
+
+## Next Steps:
+- Generating the preference dataset using PariRM
+- Push Preference Dataset to HuggingFace
+- Fine tuning Mistral-7B-Instruct-v2.0
+- Iteratively following the above process for 3 iterations
+- Evaluating performance of new model to base model on unseen data
 
 ## Contributing
 Contributions to this project are welcome! Please feel free to fork the repository, make your changes, and submit a pull request.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE.md) file for details.
 
 ## Acknowledgements
 - Inspired by the techniques proposed in the "Direct Preference Optimization" paper.
 - Thanks to all contributors who have helped in refining the approach and expanding the dataset.
 
 ## Contact
-For any queries or discussions regarding the project, please open an issue in the GitHub repository or contact me directly at parthasarathy.d@northeastern.edu.
+For any queries or discussions regarding the project, please open an issue in the GitHub repository, reach out to me via [LinkedIn](https://www.linkedin.com/in/parthadhruv/)  or contact me directly at parthasarathy.d@northeastern.edu.
 
 ## Citation
 ```
