@@ -47,3 +47,13 @@ For any queries or discussions regarding the project, please open an issue in th
     url={https://arxiv.org/abs/2305.18290}
 }
 ```
+
+## References used
+- [Fine Tuned Model: snorkelai/Snorkel-Mistral-PairRM-DPO](https://huggingface.co/snorkelai/Snorkel-Mistral-PairRM-DPO)
+- [Dataset: snorkelai/Snorkel-Mistral-PairRM-DPO-Dataset](https://huggingface.co/datasets/snorkelai/Snorkel-Mistral-PairRM-DPO-Dataset)
+- [Fine-tune Llama 2 with DPO: HuggingFace Blog](https://huggingface.co/blog/dpo-trl)
+- [Article: DPO-Fine-Tuning for Enhanced Language Model Performance](https://medium.com/@mauryaanoop3/dpo-fine-tuning-for-enhanced-language-model-performance-466fec349a5e)
+- [PairRM Model](https://huggingface.co/llm-blender/PairRM)
+- [GitHub DPO Implementation](https://github.com/eric-mitchell/direct-preference-optimization)
+- [YouTube Video - Mistra-7B Inference](https://www.youtube.com/watch?v=eovBbABk3hw&ab_channel=Rohan-Paul-AI)
+- [Inferencing Mistral-7B](https://github.com/rohan-paul/LLM-FineTuning-Large-Language-Models/blob/main/Mistral-7B-Inferencing.ipynb)
