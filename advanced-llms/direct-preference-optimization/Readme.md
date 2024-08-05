@@ -20,7 +20,7 @@ The main objective of this project is to apply direct preference optimization te
 
 
 ## Next Steps:
-- Figure out how to evaluate model performance
+- Figure out how to evaluate model performance [Reference Article](https://ritikjain51.medium.com/llms-fine-tuning-and-evaluation-f019515b1c67)
 - Iteratively following the above process for 3 iterations and evaluate model performance
 
 ## Contributing
