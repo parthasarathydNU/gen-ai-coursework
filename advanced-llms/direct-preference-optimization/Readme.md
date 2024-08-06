@@ -5,6 +5,8 @@ This project implements the technique described in the "Direct Preference Optimi
 
 Link to Paper: [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290)
 
+![](https://www.marktechpost.com/wp-content/uploads/2023/06/Screenshot-2023-06-02-at-11.56.12-PM.png)
+
 ## Objective
 The main objective of this project is to apply direct preference optimization techniques to improve the alignment of LLM outputs with human evaluative standards. This involves training models on a dataset annotated according to human preferences, thereby enabling the models to generate more user-aligned content.
 
