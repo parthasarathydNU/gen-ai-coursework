@@ -3,6 +3,8 @@
 ## Overview
 This project implements the technique described in the "Direct Preference Optimization" paper to fine-tune large language models (LLMs) to better understand and align with human preferences. The goal is to enhance the LLM's ability to generate responses that are not only accurate but also align with human values and preferences.
 
+Link to Paper: [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290)
+
 ## Objective
 The main objective of this project is to apply direct preference optimization techniques to improve the alignment of LLM outputs with human evaluative standards. This involves training models on a dataset annotated according to human preferences, thereby enabling the models to generate more user-aligned content.
 
@@ -13,10 +15,10 @@ The main objective of this project is to apply direct preference optimization te
 - **Evaluation**: Assessing the performance of the fine-tuned model using both automated metrics and human evaluations to measure alignment with human preferences.
 
 ## Status Update
-- **Generated data samples for annotation using Mistral-7B-Instruct-v2.0** : [DPODataSetGeneration.ipynb](./DPODataSetGeneration.ipynb)
-- **Generated Data Samples** : [generated_responses_DPO.json](./generated_responses_DPO.json)
-- **Generated Preference Dataset and Pushed to Hugging Face** [DhruvParth/Mistral-7B-Instruct-v2.0-PairRM-DPO-Dataset](https://huggingface.co/datasets/DhruvParth/Mistral-7B-Instruct-v2.0-PairRM-DPO-Dataset)
-- **Fine tunined Mistral-7B-Instruct-v2.0 for one iteration** [dpomistralfinetuning.ipynb](./dpomistralfinetuning.ipynb)
+- **1. Generated data samples for annotation using Mistral-7B-Instruct-v2.0** : [DPODataSetGeneration.ipynb](./DPODataSetGeneration.ipynb)
+- **2.Generated Data Samples** : [generated_responses_DPO.json](./generated_responses_DPO.json)
+- **3. Generated Preference Dataset and Pushed to Hugging Face** [DhruvParth/Mistral-7B-Instruct-v2.0-PairRM-DPO-Dataset](https://huggingface.co/datasets/DhruvParth/Mistral-7B-Instruct-v2.0-PairRM-DPO-Dataset)
+- **4. Fine tunined Mistral-7B-Instruct-v2.0 for one iteration** [dpomistralfinetuning.ipynb](./dpomistralfinetuning.ipynb)
 
 
 ## Next Steps:
@@ -36,6 +38,16 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE.
 ## Contact
 For any queries or discussions regarding the project, please open an issue in the GitHub repository, reach out to me via [LinkedIn](https://www.linkedin.com/in/parthadhruv/)  or contact me directly at parthasarathy.d@northeastern.edu.
 
+## References used
+- [Fine Tuned Model: snorkelai/Snorkel-Mistral-PairRM-DPO](https://huggingface.co/snorkelai/Snorkel-Mistral-PairRM-DPO)
+- [Dataset: snorkelai/Snorkel-Mistral-PairRM-DPO-Dataset](https://huggingface.co/datasets/snorkelai/Snorkel-Mistral-PairRM-DPO-Dataset)
+- [Fine-tune Llama 2 with DPO: HuggingFace Blog](https://huggingface.co/blog/dpo-trl)
+- [Article: DPO-Fine-Tuning for Enhanced Language Model Performance](https://medium.com/@mauryaanoop3/dpo-fine-tuning-for-enhanced-language-model-performance-466fec349a5e)
+- [PairRM Model](https://huggingface.co/llm-blender/PairRM)
+- [GitHub DPO Implementation](https://github.com/eric-mitchell/direct-preference-optimization)
+- [YouTube Video - Mistra-7B Inference](https://www.youtube.com/watch?v=eovBbABk3hw&ab_channel=Rohan-Paul-AI)
+- [Inferencing Mistral-7B](https://github.com/rohan-paul/LLM-FineTuning-Large-Language-Models/blob/main/Mistral-7B-Inferencing.ipynb)
+
 ## Citation
 ```
 @inproceedings{
@@ -47,13 +59,3 @@ For any queries or discussions regarding the project, please open an issue in th
     url={https://arxiv.org/abs/2305.18290}
 }
 ```
-
-## References used
-- [Fine Tuned Model: snorkelai/Snorkel-Mistral-PairRM-DPO](https://huggingface.co/snorkelai/Snorkel-Mistral-PairRM-DPO)
-- [Dataset: snorkelai/Snorkel-Mistral-PairRM-DPO-Dataset](https://huggingface.co/datasets/snorkelai/Snorkel-Mistral-PairRM-DPO-Dataset)
-- [Fine-tune Llama 2 with DPO: HuggingFace Blog](https://huggingface.co/blog/dpo-trl)
-- [Article: DPO-Fine-Tuning for Enhanced Language Model Performance](https://medium.com/@mauryaanoop3/dpo-fine-tuning-for-enhanced-language-model-performance-466fec349a5e)
-- [PairRM Model](https://huggingface.co/llm-blender/PairRM)
-- [GitHub DPO Implementation](https://github.com/eric-mitchell/direct-preference-optimization)
-- [YouTube Video - Mistra-7B Inference](https://www.youtube.com/watch?v=eovBbABk3hw&ab_channel=Rohan-Paul-AI)
-- [Inferencing Mistral-7B](https://github.com/rohan-paul/LLM-FineTuning-Large-Language-Models/blob/main/Mistral-7B-Inferencing.ipynb)
