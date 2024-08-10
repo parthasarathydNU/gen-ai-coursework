@@ -5,8 +5,10 @@ This repository contains assignments and projects related to the various Generat
 
 > *As someone with a background in software engineering and not in data science, I have approached the creation of this repository with the intention to demystify the complexities of Generative AI for those who, like me, are not from a data science background. Each notebook is crafted to delve deeply into the underlying concepts, ensuring that the fundamentals are thoroughly explained. You will find detailed explanations and examples in each notebook that aim to make the content accessible and understandable, regardless of your prior expertise in data science. I will keep updating this repo as I cover newer topics*
 
-## Call For Collaborators:
+## 📣 Call For Collaborators 📣 :
+- Check out [Welcome Note](https://github.com/parthasarathydNU/gen-ai-coursework/discussions/6)
 - Check out [open issues](https://github.com/parthasarathydNU/gen-ai-coursework/issues)
+- Related [LinkedIn Post](https://www.linkedin.com/feed/update/urn:li:activity:7228066766004928512/)
 
 ## Implementation of Research Papers: 
 - [Instruction Backtranslation for Enhanced LLM Training](./advanced-llms/instruction-backtranslation)
