@@ -1,4 +1,4 @@
-# Advanced LLM Research Implementation
+# Generative AI Research Implementation
 
 ## Exploring the Cutting Edge of AI
 
