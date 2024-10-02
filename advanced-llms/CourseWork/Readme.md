@@ -1,4 +1,4 @@
-# Friendly Guide to Large Language Models, RAG, and AI Agents
+# Guide to Large Language Models, RAG, and AI Agents
 
 Welcome to our collection of learning materials about some of the most exciting topics in AI today: Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and AI Agents!
 
