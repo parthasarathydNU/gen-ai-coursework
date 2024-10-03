@@ -1,0 +1,83 @@
+Objective:  
+
+The goal of this assignment is to deepen your understanding of prompt engineering within the field of natural language processing (NLP) and to demonstrate this understanding through detailed analysis and a practical example.
+
+
+Total Word Limit: 500-650 words
+
+Instructions:
+
+Part 1: Comprehensive Exploration of Prompt Engineering
+
+1. Definition and Core Concepts:
+
+   - Task: Define prompt engineering and list core concepts associated with it.
+
+   - Guidelines: Provide a clear, concise definition. Include at least two core concepts like "input manipulation" or "model tuning."
+
+   - Evaluation Criteria: Clarity of definition, relevance and accuracy of identified concepts.
+
+
+2. Purpose of Prompt Engineering:
+
+   - Task: Explain why prompt engineering is important in the context of machine learning models.
+
+   - Guidelines: Discuss the impact of prompt engineering on model performance and user interaction.
+
+   - Evaluation Criteria: Depth of explanation, use of relevant examples.
+
+
+3. Significance in Real-World Applications:
+
+   - Task: Illustrate the significance of prompt engineering with a real-world example.
+
+   - Guidelines: Choose an example where prompt engineering directly influenced the outcome. Briefly describe the scenario.
+
+   - Evaluation Criteria: Application of knowledge, analytical depth, relevance of the example.
+
+
+Part 2: Demonstrating Prompt Engineering Through Examples
+
+
+1. Scenario Description:
+
+   - Task: Briefly describe a specific scenario for applying a language model.
+
+   - Guidelines: Choose a clear and relevant scenario, such as customer support via a chatbot.
+
+   - Evaluation Criteria: Clarity and specificity of the scenario.
+
+
+2. Prompt Creation and Application:
+
+   - Task: Create two distinct prompts for the chosen scenario.
+
+   - Guidelines: Ensure the prompts differ significantly in approach or tone.
+
+   - Evaluation Criteria: Creativity, relevance to the scenario.
+
+
+3. Analysis of Model Responses:
+
+   - Task: Analyze the outputs generated from each prompt.
+
+   - Guidelines: Highlight differences in the responses and discuss the effectiveness of each prompt.
+
+   - Evaluation Criteria: Critical analysis, effectiveness of communication.
+
+
+Submission Guidelines:
+
+- Your assignment should be typed and submitted in a PDF and Latex format.
+
+- Ensure that your submission adheres to the word limits specified for each section.
+
+- Use clear and precise language, and make sure your text is well-organized and logically structured.
+
+
+Grading:
+
+- Your assignment will be graded based on the clarity of your explanations, the creativity and relevance of your examples, and the depth of your analysis.
+
+
+This assignment is designed to challenge your understanding and application of prompt engineering in NLP, encouraging you to think critically about how different prompts can influence the behavior of language models. Good luck!
